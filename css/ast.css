@@ -1,0 +1,132 @@
+.whatsapp{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    height: 64px;
+    animation: whatsapp 1s infinite;
+    z-index: 4;
+}
+@keyframes whatsapp{
+    0%   {height: 64px}
+  100% {height: 70px}
+}
+.advantage{
+    height: 400px;
+    padding:  0px important!;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.advantage-flex h1 {
+    filter:contrast(100%);
+}
+.question{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    height: 100%;
+}
+.question h2{
+    font-size: 24px;    
+    color: black;
+}
+.question h4{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.question h5{
+    color: black;
+    font-size: 18px;
+}
+.advantage-flex{
+    padding: 20px;
+    
+}
+/* .row.no-gutters {
+    margin-right: 0;
+    margin-left: 0;
+  
+    & > [class^="col-"],
+    & > [class*=" col-"] {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  } */
+.security{
+    background-image: url(../assets/images/advantages/rain.jpg);
+    background-size: cover;
+    
+}
+.enviroment{
+    background-image: url(../assets/images/advantages/yoga.jpg);
+    background-size: cover;
+    
+}
+.values{
+    background-image: url(../assets/images/advantages/grass.jpg);
+    background-size: cover;
+    
+}
+.training{
+    background-image: url(../assets/images/advantages/student.jpg);
+    background-size: cover;
+    
+}
+.instalations{
+    background-image: url(../assets/images/advantages/instalaciones-webcam.jpg);
+    background-size: cover;
+    
+}
+.awards{
+    background-image: url(../assets/images/advantages/achieve.jpg);
+    background-size: cover;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .logo{
+        
+        padding:10vh;
+    }
+    .contact-form{
+        padding: 10px;
+    }
+    .social{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .contact-form{
+        padding:20px;
+    }
+    .nav-content{
+        width: 1400px;
+    }
+    .logo{
+        width: 60%;
+        padding:0vh;
+    }
+    .logo-container{
+        display: flex;
+        justify-content: center;
+    }
+    .social-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        padding: 30px;
+
+    }
+    .social{
+        width: 30%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
